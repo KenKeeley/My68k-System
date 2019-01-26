@@ -1,0 +1,19 @@
+# Auto detect text files and perform LF normalization, Fix default GitHub language stats
+* linguist-documentation text=auto
+
+# Fix GitHub Language Stats
+*.html linguist-detectable=false
+*.kicad_mod linguist-detectable=true text eol=crlf
+*.kicad_pcb linguist-detectable=true text eol=crlf
+*.md linguist-detectable=false
+*.pro linguist-detectable=false text eol=crlf
+*.sch linguist-detectable=true text eol=crlf
+
+# Declare files that will always have CRLF line endings on checkout.
+*.dcm text eol=crlf
+*.kicad_wks text eol=crlf
+*.lib text eol=crlf
+*.step text eol=crlf
+*.wrl text eol=crlf
+
+# Declare files that will always have LF line endings on checkout.
