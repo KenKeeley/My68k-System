@@ -1,0 +1,13 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP DIN41612-C-96-M-RA
+D Eurocard DIN 41612, Type C, 96 Pin, Male
+K din41612
+$ENDCMP
+#
+$CMP Mounting_Holes
+D Standard 4HP Expansion Card
+K eurocard 4hp
+$ENDCMP
+#
+#End Doc Library
