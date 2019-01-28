@@ -1,0 +1,207 @@
+EESchema Schematic File Version 4
+LIBS:BackPlane-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 18 20
+Title "My68K - BackPlane, Power Connector"
+Date "2019-02-07"
+Rev "1.00"
+Comp ""
+Comment1 "Kenneth Keeley"
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L My68k:DIN41612-H-15-F J18
+U 1 1 5A80B3AA
+P 7100 3900
+AR Path="/5A80B3AA" Ref="J18"  Part="1" 
+AR Path="/5A80ACA3/5A80B3AA" Ref="J18"  Part="1" 
+F 0 "J18" H 7100 4050 50  0000 C CNN
+F 1 "DIN41612-H-15-F" H 7100 4150 50  0001 C CNN
+F 2 "My68k:DIN41612-H-15-F" H 7100 4250 50  0001 C CNN
+F 3 "" H 7100 3900 50  0000 C CNN
+F 4 "1656221" H 0   0   50  0001 C CNN "Part No."
+F 5 "element14" H 0   0   50  0001 C CNN "Supplier"
+	1    7100 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L My68k:DIN41612-H-15-F J18
+U 2 1 5A8225F5
+P 4050 3200
+AR Path="/5A8225F5" Ref="J18"  Part="2" 
+AR Path="/5A80ACA3/5A8225F5" Ref="J18"  Part="2" 
+F 0 "J18" H 4206 3374 50  0000 C CNN
+F 1 "DIN41612-H-15-F" H 4050 3450 50  0001 C CNN
+F 2 "My68k:DIN41612-H-15-F" H 4050 3550 50  0001 C CNN
+F 3 "" H 4050 3200 50  0000 C CNN
+F 4 "1656221" H 0   0   50  0001 C CNN "Part No."
+F 5 "element14" H 0   0   50  0001 C CNN "Supplier"
+	2    4050 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L My68k:4771_3-pin J17
+U 1 1 5A822651
+P 8200 4000
+AR Path="/5A822651" Ref="J17"  Part="1" 
+AR Path="/5A80ACA3/5A822651" Ref="J17"  Part="1" 
+F 0 "J17" H 8200 3800 50  0000 C CNN
+F 1 "4771 3-pin" H 7925 3775 50  0001 L BNN
+F 2 "My68k:4771_3-pin" H 8200 3500 50  0001 C CNN
+F 3 "" H 8200 3500 60  0000 C CNN
+F 4 "altronics" H 0   0   50  0001 C CNN "Supplier"
+F 5 "P5603" H 0   0   50  0001 C CNN "Part No."
+	1    8200 4000
+	1    0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR1701
+U 1 1 5A8359F9
+P 4800 4950
+AR Path="/5A8359F9" Ref="#PWR1701"  Part="1" 
+AR Path="/5A80ACA3/5A8359F9" Ref="#PWR01701"  Part="1" 
+F 0 "#PWR01701" H 4800 4700 50  0001 C CNN
+F 1 "GND" H 4805 4777 50  0000 C CNN
+F 2 "" H 4800 4950 50  0001 C CNN
+F 3 "" H 4800 4950 50  0001 C CNN
+	1    4800 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR1702
+U 1 1 5A835A21
+P 7800 4275
+AR Path="/5A835A21" Ref="#PWR1702"  Part="1" 
+AR Path="/5A80ACA3/5A835A21" Ref="#PWR01702"  Part="1" 
+F 0 "#PWR01702" H 7800 4025 50  0001 C CNN
+F 1 "GND" H 7805 4102 50  0000 C CNN
+F 2 "" H 7800 4275 50  0001 C CNN
+F 3 "" H 7800 4275 50  0001 C CNN
+	1    7800 4275
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR1703
+U 1 1 5A835A73
+P 4800 4100
+AR Path="/5A835A73" Ref="#PWR1703"  Part="1" 
+AR Path="/5A80ACA3/5A835A73" Ref="#PWR01703"  Part="1" 
+F 0 "#PWR01703" H 4800 3950 50  0001 C CNN
+F 1 "+5V" V 4815 4228 50  0000 L CNN
+F 2 "" H 4800 4100 50  0001 C CNN
+F 3 "" H 4800 4100 50  0001 C CNN
+	1    4800 4100
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+3.3V #PWR1704
+U 1 1 5A836C77
+P 4800 3600
+AR Path="/5A836C77" Ref="#PWR1704"  Part="1" 
+AR Path="/5A80ACA3/5A836C77" Ref="#PWR01704"  Part="1" 
+F 0 "#PWR01704" H 4800 3450 50  0001 C CNN
+F 1 "+3.3V" V 4815 3728 50  0000 L CNN
+F 2 "" H 4800 3600 50  0001 C CNN
+F 3 "" H 4800 3600 50  0001 C CNN
+	1    4800 3600
+	0    1    1    0   
+$EndComp
+$Comp
+L My68k:VTT #PWR1705
+U 1 1 5A837147
+P 4800 3200
+AR Path="/5A837147" Ref="#PWR1705"  Part="1" 
+AR Path="/5A80ACA3/5A837147" Ref="#PWR01705"  Part="1" 
+F 0 "#PWR01705" H 4800 3050 50  0001 C CNN
+F 1 "VTT" V 4800 3325 50  0000 L CNN
+F 2 "" H 4800 3200 50  0001 C CNN
+F 3 "" H 4800 3200 50  0001 C CNN
+	1    4800 3200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7800 4275 7800 4000
+Wire Wire Line
+	4550 3200 4700 3200
+Wire Wire Line
+	4550 3600 4700 3600
+Wire Wire Line
+	4700 3800 4550 3800
+Wire Wire Line
+	4700 3600 4700 3700
+Connection ~ 4700 3600
+Wire Wire Line
+	4700 3700 4550 3700
+Connection ~ 4700 3700
+Wire Wire Line
+	4550 4100 4700 4100
+Wire Wire Line
+	4700 4300 4550 4300
+Wire Wire Line
+	4700 4100 4700 4200
+Connection ~ 4700 4100
+Wire Wire Line
+	4700 4200 4550 4200
+Connection ~ 4700 4200
+Wire Wire Line
+	4550 4600 4800 4600
+Wire Wire Line
+	4800 4700 4550 4700
+Connection ~ 4800 4700
+Wire Wire Line
+	4800 4800 4550 4800
+Connection ~ 4800 4800
+Wire Wire Line
+	4800 4900 4550 4900
+Connection ~ 4800 4900
+Wire Wire Line
+	7600 3900 8000 3900
+Wire Wire Line
+	7600 4100 8000 4100
+Wire Wire Line
+	7800 4000 8000 4000
+Wire Wire Line
+	4550 4500 4800 4500
+Wire Wire Line
+	4700 3600 4800 3600
+Wire Wire Line
+	4700 3700 4700 3800
+Wire Wire Line
+	4700 4100 4800 4100
+Wire Wire Line
+	4700 4200 4700 4300
+Wire Wire Line
+	4800 4700 4800 4800
+Wire Wire Line
+	4800 4800 4800 4900
+Wire Wire Line
+	4800 4900 4800 4950
+$Comp
+L My68k:VTT #PWR0110
+U 1 1 5C581C06
+P 4900 4600
+F 0 "#PWR0110" H 4900 4450 50  0001 C CNN
+F 1 "VTT" V 4915 4728 50  0000 L CNN
+F 2 "" H 4900 4600 50  0001 C CNN
+F 3 "" H 4900 4600 50  0001 C CNN
+	1    4900 4600
+	0    1    1    0   
+$EndComp
+Connection ~ 4800 4600
+Wire Wire Line
+	4800 4600 4800 4700
+Wire Wire Line
+	4800 4500 4800 4600
+Wire Wire Line
+	4550 3300 4700 3300
+Wire Wire Line
+	4700 3300 4700 3200
+Connection ~ 4700 3200
+Wire Wire Line
+	4700 3200 4800 3200
+$EndSCHEMATC

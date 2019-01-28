@@ -1,13 +1,53 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 4771_3-pin
+D 4771 3-pin Header
+K 4771 3-pin header
+$ENDCMP
+#
+$CMP BackPlane_Rails
+D 84HP BackPlane Rails
+K backplane
+$ENDCMP
+#
+$CMP CP
+D Polarised capacitor
+K cap capacitor
+$ENDCMP
+#
+$CMP DIN41612-C-96-F
+D Eurocard DIN 41612, Type C, 96 Pin, Female
+K din41612
+$ENDCMP
+#
 $CMP DIN41612-C-96-M-RA
 D Eurocard DIN 41612, Type C, 96 Pin, Male
 K din41612
 $ENDCMP
 #
+$CMP DIN41612-H-15-F
+D Eurocard DIN 41612, Type H, 15 Pin, Female
+K din41612
+$ENDCMP
+#
+$CMP Jumper
+D Jumper
+K jumper
+$ENDCMP
+#
 $CMP Mounting_Holes
 D Standard 4HP Expansion Card
 K eurocard 4hp
+$ENDCMP
+#
+$CMP Res_Array_10
+D Resistor Array 10-pin SIP
+K r res resistor
+$ENDCMP
+#
+$CMP VTT
+D power-flag symbol
+K Power Flag Symbol
 $ENDCMP
 #
 #End Doc Library
