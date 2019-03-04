@@ -1,8 +1,22 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 2N3904
+D Small Signal NPN Transistor
+K NPN Transistor
+$ENDCMP
+#
+$CMP 2N3906
+D Small Signal PNP Transistor
+K PNP Transistor
+$ENDCMP
+#
 $CMP 4771_3-pin
 D 4771 3-pin Header
 K 4771 3-pin header
+$ENDCMP
+#
+$CMP BI_LED_K
+D BiColor LED, Common Cathode
 $ENDCMP
 #
 $CMP BackPlane_Rails
@@ -10,9 +24,18 @@ D 84HP BackPlane Rails
 K backplane
 $ENDCMP
 #
+$CMP C
+D Unpolarized capacitor
+K capacitor cap
+$ENDCMP
+#
 $CMP CP
 D Polarised capacitor
 K cap capacitor
+$ENDCMP
+#
+$CMP D
+D Diode
 $ENDCMP
 #
 $CMP DIN41612-C-96-F
@@ -30,9 +53,28 @@ D Eurocard DIN 41612, Type H, 15 Pin, Female
 K din41612
 $ENDCMP
 #
+$CMP DIN41612-H-15-M-RA
+D Eurocard DIN 41612, Type H, 15 Pin, Male
+K din41612
+$ENDCMP
+#
+$CMP FUSE
+D Fuse, generic
+K fuse
+$ENDCMP
+#
 $CMP Jumper
 D Jumper
 K jumper
+$ENDCMP
+#
+$CMP LM4250
+D Programmable Operational Amplifier
+K Programmable opamp
+$ENDCMP
+#
+$CMP Molex_20-Pin
+D Molex 20-Pin Header
 $ENDCMP
 #
 $CMP Mounting_Holes
@@ -40,9 +82,34 @@ D Standard 4HP Expansion Card
 K eurocard 4hp
 $ENDCMP
 #
+$CMP POT
+D Potentiometer
+K resistor variable
+$ENDCMP
+#
+$CMP R
+D Resistor
+K r res resistor
+$ENDCMP
+#
 $CMP Res_Array_10
 D Resistor Array 10-pin SIP
 K r res resistor
+$ENDCMP
+#
+$CMP SW_SPDT
+D Switch, Single Pole Double Throw
+K switch single-pole double-throw spdt ON-ON
+$ENDCMP
+#
+$CMP TIP120
+D TIP120 Power Transistor NPN, collector connected to mounting plane
+K npn transistor
+$ENDCMP
+#
+$CMP TIP125
+D TIP125 Power Transistor PNP, collector connected to mounting plane
+K pnp transistor
 $ENDCMP
 #
 $CMP VTT
